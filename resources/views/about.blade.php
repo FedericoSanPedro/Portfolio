@@ -2,92 +2,75 @@
 
 @section('content')
 
-    <!-- Hero background & content on top of hero background -->
-    <div id="hero-container">
-        <div class="hero-wrapper">
-            <h1>Multi-Disciplinary <br> <span class="line">Designer</span> <span class="orange-txt">Developer</span></h1>
-
-            <div class="btn-wrapper">
-                <a href="">Let's connect</a>
-                <a href="">View Portfolio</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- 4 grid layout skills on homepage -->
-    <!-- Every div is a grid item -->
-    <div class="container-grid-4">
-        <div>
-            <img src="img/icon-box.jpg" alt="">
-            <h2>
-                Web Design
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur!
-            </p>
-        </div>
-
-        <div>
-            <img src="img/icon-box.jpg" alt="">
-            <h2>
-                Web Development
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur!
-            </p>
-        </div>
-
-        <div>
-            <img src="img/icon-box.jpg" alt="">
-            <h2>
-                Product Design
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur!
-            </p>
-        </div>
-
-        <div>
-            <img src="img/icon-box.jpg" alt="">
-            <h2>
-                Creative Thinker
-            </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur!
-            </p>
-        </div>
-    </div>
-
     <div class="header-section">
-        <h2 class="dark big">Team</h2>
+        <h2 class="dark big">Who I am?</h2>
 
         <hr>
     </div>
 
-    <!-- Meet the team section -->
+    <!-- Meet me -->
     <div class="container-grid-2">
         <div>
-            <img class="img-team" src="img/team-section-home.jpg" alt="">
+            <img class="img-team" src="{{ URL('storage/prog.jpg') }}" alt="">
         </div>
         <div>
             <h2>
-                Who we are
+                My name is Federico San Pedro
             </h2>
 
             <h3 class="orange-txt">
-                Meet Our Team
+                I am a PHP Developer
             </h3>
 
             <p>
-                Whether you require distribution or fulfillment, defined freight forwarding, or a complete supply chain solution, we are here for you.
+                I started programming since 2015 like a hobby. 
             </p>
 
-            <div class="btn-wrapper">
-                <a href="">About</a>
-            </div>
         </div>
     </div>
 
+    <!-- Meet my study -->
+    <div class="container-grid-2">
+        <div>
+            <h2>
+                National University of Technology
+            </h2>
+
+            <h3 class="orange-txt">
+                I finished my technique in 2021.
+            </h3>
+
+            <p>
+                There I learned to code in C - Java - PHP. I worked with lot of developers and friends.
+            </p>
+
+        </div>
+        <div>
+            <img class="img-team" src="{{ URL('storage/pog.png') }}" alt="">
+        </div>
+    </div>
+
+    <!-- Meet my study -->
+    <div class="container-grid-2">
+        <div>
+            <img class="img-team" src="{{ URL('storage/adm.png') }}" alt="">
+        </div>
+        <div>
+            <h2>
+                Administrative Manager
+            </h2>
+
+            <h3 class="orange-txt">
+                I worked in this job since 2015.
+            </h3>
+
+            <p>
+                There I learned how to communicate to my clients what they should to have a pass from the Mayor. It is a job with a lot of paper and meetings.
+            </p>
+
+        </div>
+    </div>
+    
     <div class="header-section">
         <h2 class="dark big">Skills</h2>
 
@@ -97,48 +80,75 @@
     <!-- Section of skills -->
     <div class="section-why-us">
         <div>
-            <i class="fas fa-code-branch icon-why-us"></i>
+            <i class="fas fa-globe icon-why-us"></i>
             <h2>
-                Quality Control
+                Github
             </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-        </div>
-
-        <div class="middle">
-            <img src="img/icon-box.jpg" alt="">
         </div>
 
         <div>
             <i class="far fa-keyboard icon-why-us"></i>
             <h2>
-                Optional Maintenance
+                PHP
             </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
         </div>
 
         <div>
-            <i class="fab fa-google icon-why-us"></i>
+            <i class="fas fa-code-branch icon-why-us"></i>
             <h2>
-                Search Engine Friendly
+                LARAVEL
             </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
         </div>
 
         <div>
-            <i class="fas fa-globe icon-why-us"></i>
+            <i class="fas fa-code-branch icon-why-us"></i>
             <h2>
-                Web Master Tools
+                MVC
             </h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
         </div>
+
+        <div>
+            <i class="far fa-keyboard icon-why-us"></i>
+            <h2>
+                JAVA
+            </h2>
+        </div>
+
+        <div>
+            <i class="far fa-keyboard icon-why-us"></i>
+            <h2>
+                C
+            </h2>
+        </div>
+
+        <div>
+            <i class="far fa-keyboard icon-why-us"></i>
+            <h2>
+                JAVASCRIPT
+            </h2>
+        </div>
+
+        <div>
+            <i class="far fa-keyboard icon-why-us"></i>
+            <h2>
+                MySql
+            </h2>
+        </div>
+
+        <div>
+            <i class="far fa-keyboard icon-why-us"></i>
+            <h2>
+                HTML
+            </h2>
+        </div>
+
+        <div>
+            <i class="far fa-keyboard icon-why-us"></i>
+            <h2>
+                CSS
+            </h2>
+        </div>
+
     </div>
 
 @endsection

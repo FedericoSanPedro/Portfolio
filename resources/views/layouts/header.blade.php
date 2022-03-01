@@ -21,7 +21,19 @@
             <a href="portfolio" class="{{  request()->is('portfolio') ? 'active' : '' }}">Portfolio</a>
         </li>
         <li>
-            <a href="contact" class="{{  request()->is('contact') ? 'active' : '' }}">Contact</a>
+          <a href="https://www.instagram.com/fedu_zero/?hl=es" target="_blank" rel="noopenernoreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/federico-san-pedro/" target="_blank" rel="noopenernoreferrer">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/FedericoSanPedro" target="_blank" rel="noopenernoreferrer">
+            <i class="fab fa-github"></i>
+          </a>
         </li>
     </ul>
 </nav>

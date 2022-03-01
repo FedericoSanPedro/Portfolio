@@ -8,7 +8,6 @@
             <h1>Multi-Disciplinary <br> <span class="line">Designer</span> <span class="orange-txt">Developer</span></h1>
 
             <div class="btn-wrapper">
-                <a href="">Let's connect</a>
                 <a href="">View Portfolio</a>
             </div>
         </div>
@@ -107,7 +106,7 @@
         </div>
 
         <div class="middle">
-            <img src="img/icon-box.jpg" alt="">
+            <img src="{{ URL('storage/icon-box.jpg') }}" alt="">
         </div>
 
         <div>
