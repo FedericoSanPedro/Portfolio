@@ -19,3 +19,6 @@ Route::get('/',
 
  Route::get('/about',
  [PagesController::class, 'about']);
+
+ Route::get('/portfolio',
+ [PagesController::class, 'portfolio']);
