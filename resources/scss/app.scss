@@ -264,3 +264,42 @@ footer {
 .social-icons {
     display: none;
 }
+
+.tags {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    background: var(--clr-grey-9);
+    color: var(--clr-grey-5);
+    padding: 0.15rem 0.4rem;
+    border-radius: var(--radius);
+    text-transform: uppercase;
+    font-size: .75rem;
+    letter-spacing: 2px;
+    display: block;
+    margin: 0.25rem 0.25rem 0;
+}
+
+.single-project-module--project--3_fln {
+    transition: var(--transition);
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    display: grid;
+    grid-template-rows: auto 1fr;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+
+.single-project-module--footer--_D86Q {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+.single-project-module--info--1iz3j {
+    margin-top: -1.25rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
