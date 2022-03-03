@@ -8,7 +8,7 @@
             <h1>Multi-Disciplinary <br> <span class="line">Designer</span> <span class="orange-txt">Developer</span></h1>
 
             <div class="btn-wrapper">
-                <a href="">View Portfolio</a>
+                <a href="portfolio">View Portfolio</a>
             </div>
         </div>
     </div>
