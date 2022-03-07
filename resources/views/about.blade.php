@@ -9,9 +9,10 @@
     </div>
 
     <!-- Meet me -->
+    <!-- To upload image from the folder: doble-llave URL('storage/prog.jpg') doble-llave -->
     <div class="container-grid-2">
         <div>
-            <img class="img-team" src="{{ URL('storage/prog.jpg') }}" alt="">
+            <img class="img-team" src="https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg" alt="">
         </div>
         <div>
             <h2>
@@ -46,14 +47,14 @@
 
         </div>
         <div>
-            <img class="img-team" src="{{ URL('storage/pog.png') }}" alt="">
+            <img class="img-team" src="https://www.gub.uy/oficina-nacional-servicio-civil/sites/oficina-nacional-servicio-civil/files/styles/listado/public/imagenes/noticias/Imagen.jpg?itok=KQf1E29B" alt="">
         </div>
     </div>
 
     <!-- Meet my study -->
     <div class="container-grid-2">
         <div>
-            <img class="img-team" src="{{ URL('storage/adm.png') }}" alt="">
+            <img class="img-team" src="https://cdn.pixabay.com/photo/2021/12/30/19/46/audit-6904474__480.png" alt="">
         </div>
         <div>
             <h2>

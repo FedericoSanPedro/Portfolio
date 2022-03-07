@@ -17,7 +17,7 @@
     <div>
         <article class="single-project-module--project--3_fln">
             <a href="https://github.com/FedericoSanPedro/Cars/tree/Fede" target="_blank" rel="noreferrer noopener">
-                <img src="{{ URL('storage/car.png') }}">
+                <img src="https://cdn.pixabay.com/photo/2016/05/18/10/52/buick-1400243_960_720.jpg">
             </a>
             <div class="single-project-module--footer--_D86Q">
                 <div class="single-project-module--info--1iz3j">
@@ -63,7 +63,7 @@
     <div>
         <article class="single-project-module--project--3_fln">
             <a href="https://github.com/PonFET/MyJob" target="_blank" rel="noreferrer noopener">
-                <img src="{{ URL('storage/inter.png') }}">
+                <img src="https://cdn.pixabay.com/photo/2020/12/09/10/34/meeting-5817031_960_720.jpg">
             </a>
             <div class="single-project-module--footer--_D86Q">
                 <div class="single-project-module--info--1iz3j">
