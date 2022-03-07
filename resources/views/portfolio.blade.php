@@ -17,9 +17,7 @@
     <div>
         <article class="single-project-module--project--3_fln">
             <a href="https://github.com/FedericoSanPedro/Cars/tree/Fede" target="_blank" rel="noreferrer noopener">
-                <img src="https://fg.ull.es/noticias/wp-content/uploads/sites/2/2018/11/startup-593327_960_720.jpg">
-                
-               <!-- https://cdn.pixabay.com/photo/2016/05/18/10/52/buick-1400243_960_720.jpg -->
+                <img src="https://cdn.pixabay.com/photo/2016/05/18/10/52/buick-1400243_960_720.jpg">
             </a>
             <div class="single-project-module--footer--_D86Q">
                 <div class="single-project-module--info--1iz3j">
