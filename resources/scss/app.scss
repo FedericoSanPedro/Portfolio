@@ -79,7 +79,9 @@ p {
 
 /* Landing section */
 #hero-container {
-    background-image: url('/https://fg.ull.es/noticias/wp-content/uploads/sites/2/2018/11/startup-593327_960_720.jpg') no-repeat center center fixed;
+    background-image: url("https://fg.ull.es/noticias/wp-content/uploads/sites/2/2018/11/startup-593327_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -244,10 +246,10 @@ footer {
 }
 
 .container-footer {
-    width: 80%;
+    width: 30%;
     margin: 0 auto;
     text-align: center;
-    padding: 60px;
+    padding: 20px;
 }
 
 .container-footer img {

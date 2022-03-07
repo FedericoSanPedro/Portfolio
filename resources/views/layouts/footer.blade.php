@@ -6,6 +6,6 @@
                 title="Logo personal portfolio"
                 />
             <p>
-                This website is created by Code With Dary
+                This website is created by Code With Dary. Thanks Dary.
             </p>
         </div>
