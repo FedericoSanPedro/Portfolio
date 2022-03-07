@@ -41,7 +41,7 @@
     <div>
         <article class="single-project-module--project--3_fln">
             <a href="https://github.com/FedericoSanPedro/Restaurante" target="_blank" rel="noreferrer noopener">
-                <img src="{{ URL('storage/resta.png') }}">
+                <img src="https://cdn.pixabay.com/photo/2015/09/14/11/43/restaurant-939437_960_720.jpg">
             </a>
             <div class="single-project-module--footer--_D86Q">
                 <div class="single-project-module--info--1iz3j">
