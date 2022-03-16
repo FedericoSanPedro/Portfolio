@@ -32,7 +32,6 @@
                         <p class="tab">Laravel</p>
                         <p class="tab">MySql</p>
                     </div>
-
                 </div>
             </div>
         </article>
@@ -57,7 +56,6 @@
                         <p class="tab">MySql</p>
                         <p class="tab">Tailwind</p>
                     </div>
-
                 </div>
             </div>
         </article>
@@ -102,7 +100,32 @@
                     <div class="tags">
                         <p class="tab">Java</p>
                     </div>
+                </div>
+            </div>
+        </article>
+    </div>
 
+</div>
+
+<div class="container-grid-4">
+
+    <div>
+        <article class="single-project-module--project--3_fln">
+            <a href="https://github.com/AgusSanMartin/AeroTaxi" target="_blank" rel="noreferrer noopener">
+                <img src="https://cdn.pixabay.com/photo/2018/09/25/17/14/airplane-3702676_960_720.jpg">
+            </a>
+            <div class="single-project-module--footer--_D86Q">
+                <div class="single-project-module--info--1iz3j">
+                    <h2>
+                        Aerotaxi
+                    </h2>
+                    <p>
+                        You can add different types of plane to let the users travel from a city to another.
+                    </p>
+                    <div class="tags">
+                        <p class="tab">Java</p>
+                        <p class="tab">MVC</p>
+                    </div>
                 </div>
             </div>
         </article>

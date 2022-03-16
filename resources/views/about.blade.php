@@ -66,7 +66,7 @@
             </h3>
 
             <p>
-                There I learned how to communicate to my clients what they should to have a pass from the Mayor. It is a job with a lot of paper and meetings.
+                There I learned how to communicate with my clients what they should to have a pass from the Mayor. It is a job with a lot of paper and meetings.
             </p>
 
         </div>
