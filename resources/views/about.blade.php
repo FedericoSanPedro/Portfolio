@@ -150,6 +150,13 @@
             </h2>
         </div>
 
+        <div>
+            <i class="far fa-keyboard icon-why-us"></i>
+            <h2>
+                Tailwind CSS
+            </h2>
+        </div>
+        
     </div>
 
 @endsection
