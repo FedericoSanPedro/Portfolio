@@ -3,7 +3,7 @@
     <div class="logo-header">
         <a href="/">
             <img
-            src=""
+            src="https://i.postimg.cc/N0B5Zv9M/logo.png"
             alt="Logo personal portfolio"
             title="Logo personal portfolio"
             />

@@ -1,11 +1,11 @@
 
         <div class="container-footer">
             <img
-                src=""
+                src="https://i.postimg.cc/N0B5Zv9M/logo.png"
                 alt="Logo personal portfolio"
                 title="Logo personal portfolio"
                 />
             <p>
-                This website is created by Federico San Pedro.
+                &copy; all rights reserved.
             </p>
         </div>

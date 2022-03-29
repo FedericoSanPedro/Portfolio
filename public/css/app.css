@@ -44,7 +44,7 @@ p {
 
 /* Logo Website */
 .logo-header img {
-  width: 50px;
+  width: 100px;
 }
 
 .logo-header {
@@ -251,7 +251,7 @@ footer {
 }
 
 .container-footer img {
-  width: 50px;
+  width: 100px;
   padding: 30px 0px 10px 0px;
 }
 
