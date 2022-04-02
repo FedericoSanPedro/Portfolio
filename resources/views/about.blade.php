@@ -20,11 +20,11 @@
             </h2>
 
             <h3 class="orange-txt">
-                I am a PHP Developer
+                I am a PHP Developer with 2+ years of experience.
             </h3>
 
             <p>
-                I started programming since 2015 like a hobby. 
+                I started programming in 2015 and still going. 
             </p>
 
         </div>
@@ -66,7 +66,7 @@
             </h3>
 
             <p>
-                There I learned how to communicate with my clients what they should to have a pass from the Mayor. It is a job with a lot of paper and meetings.
+                There I learned how to communicate with my clients what they should do to have a pass from the Mayor. It is a job with a lot of papers and meetings.
             </p>
 
         </div>
