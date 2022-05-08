@@ -109,6 +109,13 @@
         </div>
 
         <div>
+            <i class="fas fa-code-branch icon-why-us"></i>
+            <h2>
+                VUE.JS
+            </h2>
+        </div>
+
+        <div>
             <i class="far fa-keyboard icon-why-us"></i>
             <h2>
                 JAVA
@@ -126,6 +133,13 @@
             <i class="far fa-keyboard icon-why-us"></i>
             <h2>
                 JAVASCRIPT
+            </h2>
+        </div>
+
+        <div>
+            <i class="far fa-branch icon-why-us"></i>
+            <h2>
+                React
             </h2>
         </div>
 

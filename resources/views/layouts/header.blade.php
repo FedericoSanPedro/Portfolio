@@ -20,11 +20,11 @@
         <li>
             <a href="portfolio" class="{{  request()->is('portfolio') ? 'active' : '' }}">Portfolio</a>
         </li>
-        <li>
+       <!-- <li>
           <a href="https://www.instagram.com/fedu_zero/?hl=es" target="_blank" rel="noopenernoreferrer">
             <i class="fab fa-instagram"></i>
           </a>
-        </li>
+        </li> -->
         <li>
           <a href="https://www.linkedin.com/in/federico-san-pedro/" target="_blank" rel="noopenernoreferrer">
             <i class="fab fa-linkedin"></i>

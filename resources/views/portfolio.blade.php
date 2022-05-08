@@ -16,6 +16,49 @@
 
     <div>
         <article class="single-project-module--project--3_fln">
+            <a href="https://github.com/FedericoSanPedro/PracticaReact" target="_blank" rel="noreferrer noopener">
+                <img src="https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg">
+            </a>
+            <div class="single-project-module--footer--_D86Q">
+                <div class="single-project-module--info--1iz3j">
+                    <h2>
+                        React Project
+                    </h2>
+                    <p>
+                        This project was created by John Smilga. Here I learned the routes in a React project.
+                    </p>
+                    <div class="tags">
+                        <p class="tab">Javascript</p>
+                        <p class="tab">React</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div>
+        <article class="single-project-module--project--3_fln">
+            <a href="https://github.com/FedericoSanPedro/Vainilla" target="_blank" rel="noreferrer noopener">
+                <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png">
+            </a>
+            <div class="single-project-module--footer--_D86Q">
+                <div class="single-project-module--info--1iz3j">
+                    <h2>
+                        Vanilla Projects
+                    </h2>
+                    <p>
+                        This project was created by John Smilga. It is 8 hours coding 17 simple projects of Javascript.
+                    </p>
+                    <div class="tags">
+                        <p class="tab">Javascript</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div>
+        <article class="single-project-module--project--3_fln">
             <a href="https://github.com/FedericoSanPedro/Cars/tree/Fede" target="_blank" rel="noreferrer noopener">
                 <img src="https://cdn.pixabay.com/photo/2016/05/18/10/52/buick-1400243_960_720.jpg">
             </a>
@@ -61,6 +104,11 @@
         </article>
     </div>
 
+
+</div>
+
+<div class="container-grid-4">
+
     <div>
         <article class="single-project-module--project--3_fln">
             <a href="https://github.com/PonFET/MyJob" target="_blank" rel="noreferrer noopener">
@@ -104,10 +152,6 @@
             </div>
         </article>
     </div>
-
-</div>
-
-<div class="container-grid-4">
 
     <div>
         <article class="single-project-module--project--3_fln">
