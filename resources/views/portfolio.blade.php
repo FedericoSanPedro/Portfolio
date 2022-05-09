@@ -25,7 +25,7 @@
                         React Project
                     </h2>
                     <p>
-                        This project was created by John Smilga. Here I learned the routes in a React project.
+                        Here I learned the routes in a React project. Created by John Smilga.
                     </p>
                     <div class="tags">
                         <p class="tab">Javascript</p>
@@ -47,7 +47,7 @@
                         Vanilla Projects
                     </h2>
                     <p>
-                        This project was created by John Smilga. It is 8 hours coding 17 simple projects of Javascript.
+                        8 hours coding 17 simple projects of Javascript. Created by John Smilga.
                     </p>
                     <div class="tags">
                         <p class="tab">Javascript</p>
