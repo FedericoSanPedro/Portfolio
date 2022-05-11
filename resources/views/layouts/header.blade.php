@@ -10,16 +10,7 @@
         </a>
     </div>
 
-    <ul>
-        <li>
-            <a href="/" class="{{  request()->is('/') ? 'active' : '' }}">Home</a>
-        </li>
-        <li>
-            <a href="about" class="{{  request()->is('about') ? 'active' : '' }}">About</a>
-        </li>
-        <li>
-            <a href="portfolio" class="{{  request()->is('portfolio') ? 'active' : '' }}">Portfolio</a>
-        </li>
+      <ul class="social-icons">
        <!-- <li>
           <a href="https://www.instagram.com/fedu_zero/?hl=es" target="_blank" rel="noopenernoreferrer">
             <i class="fab fa-instagram"></i>
@@ -36,4 +27,15 @@
           </a>
         </li>
     </ul>
+    <ul>
+        <li>
+            <a href="/" class="{{  request()->is('/') ? 'active' : '' }}">Home</a>
+        </li>
+        <li>
+            <a href="about" class="{{  request()->is('about') ? 'active' : '' }}">About</a>
+        </li>
+        <li>
+            <a href="portfolio" class="{{  request()->is('portfolio') ? 'active' : '' }}">Portfolio</a>
+        </li>
+      </ul>
 </nav>
