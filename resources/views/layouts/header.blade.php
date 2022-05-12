@@ -1,6 +1,8 @@
 <!-- Navigation -->
-<nav class="top-menu-container">
-    <div class="logo-header">
+<nav>
+  <div class="nav-center">
+    <!-- nav header -->
+    <div class="nav-header">
         <a href="/">
             <img
             src="https://i.postimg.cc/N0B5Zv9M/logo.png"
@@ -8,7 +10,21 @@
             title="Logo personal portfolio"
             />
         </a>
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
     </div>
+    <ul class="links">
+        <li>
+            <a href="/" class="{{  request()->is('/') ? 'active' : '' }}">Home</a>
+        </li>
+        <li>
+            <a href="about" class="{{  request()->is('about') ? 'active' : '' }}">About</a>
+        </li>
+        <li>
+            <a href="portfolio" class="{{  request()->is('portfolio') ? 'active' : '' }}">Portfolio</a>
+        </li>
+      </ul>
 
       <ul class="social-icons">
        <!-- <li>
@@ -27,15 +43,5 @@
           </a>
         </li>
     </ul>
-    <ul>
-        <li>
-            <a href="/" class="{{  request()->is('/') ? 'active' : '' }}">Home</a>
-        </li>
-        <li>
-            <a href="about" class="{{  request()->is('about') ? 'active' : '' }}">About</a>
-        </li>
-        <li>
-            <a href="portfolio" class="{{  request()->is('portfolio') ? 'active' : '' }}">Portfolio</a>
-        </li>
-      </ul>
+  </div>
 </nav>

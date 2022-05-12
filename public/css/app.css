@@ -74,7 +74,6 @@ p {
   font-size: 14px;
   padding: 0px 4px 6px 4px;
   text-transform: uppercase;
-  color: #303030;
 }
 
 /* Landing section */
@@ -342,10 +341,128 @@ footer {
   text-align: center;
 }
 
+/* proyecto navbar de vanilla jhon smilga */
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
 .social-icons {
   display: none;
 }
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.show-links {
+  height: 10rem;
+}
+nav {
+  background: var(--clr-grey);
+  box-shadow: var(--light-shadow);
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: absolute;
+  left: 80px;
+  top: 15px;
+}
+
+.nav-header img {
+  width: 100px;
+}
+
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);
+}
+.logo {
+  height: 40px;
+}
+.links a {
+  color: var(--clr-grey-3);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-5);
+  padding-left: 1.5rem;
+}
+/*
+.top-menu-container ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+  position: relative;
+  top: 34px;
+  right: 80px;
+}
+
+.top-menu-container ul li {
+  display: inline;
+}
+
+.top-menu-container ul li a {
+  text-decoration: none;
+  margin: 20px;
+  font-size: 14px;
+  padding: 0px 4px 6px 4px;
+  text-transform: uppercase;
+}*/
 @media screen and (min-width: 800px) {
+  .nav-center {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+ /* experimentar con esto
+ .nav-center ul{
+    padding: 0px 4px 6px 4px;
+  }*/
+
+  .nav-header {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .links {
+    height: auto;
+    display: flex;
+  }
+  .links a {
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+  .links a:hover {
+    padding: 0;
+    background: transparent;
+  }
   .social-icons {
     display: flex;
   }
