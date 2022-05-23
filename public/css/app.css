@@ -407,41 +407,15 @@ nav {
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
-/*
-.top-menu-container ul {
-  padding: 0;
-  margin: 0;
-  float: right;
-  position: relative;
-  top: 34px;
-  right: 80px;
-}
-
-.top-menu-container ul li {
-  display: inline;
-}
-
-.top-menu-container ul li a {
-  text-decoration: none;
-  margin: 20px;
-  font-size: 14px;
-  padding: 0px 4px 6px 4px;
-  text-transform: uppercase;
-}*/
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 400px;
-    margin: 0 auto;
+    margin-left: auto; 
+    margin-right: 0;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 1rem;
   }
-
- /* experimentar con esto
- .nav-center ul{
-    padding: 0px 4px 6px 4px;
-  }*/
 
   .nav-header {
     height: 100px;
