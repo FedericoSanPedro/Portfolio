@@ -95,7 +95,7 @@ p {
 .line {
   text-decoration: line-through;
   -webkit-text-decoration-color: #ff6500;
-          text-decoration-color: #ff6500;
+  text-decoration-color: #ff6500;
   font-style: italic;
 }
 
@@ -342,10 +342,10 @@ footer {
 }
 
 /* proyecto navbar de vanilla jhon smilga */
-
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -353,18 +353,22 @@ a {
 .social-icons {
   display: none;
 }
+
 .links {
   height: 0;
   overflow: hidden;
   transition: var(--transition);
 }
+
 .show-links {
   height: 10rem;
 }
+
 nav {
   background: var(--clr-grey);
   box-shadow: var(--light-shadow);
 }
+
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -386,13 +390,16 @@ nav {
   transition: var(--transition);
   cursor: pointer;
 }
+
 .nav-toggle:hover {
   color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
+
 .logo {
   height: 40px;
 }
+
 .links a {
   color: var(--clr-grey-3);
   font-size: 1rem;
@@ -402,15 +409,17 @@ nav {
   padding: 0.5rem 1rem;
   transition: var(--transition);
 }
+
 .links a:hover {
   background: var(--clr-primary-8);
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
+
 @media screen and (min-width: 800px) {
   .nav-center {
     max-width: 400px;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: 0;
     display: flex;
     justify-content: flex-end;
@@ -422,29 +431,36 @@ nav {
     width: 100px;
     padding: 0;
   }
+
   .nav-toggle {
     display: none;
   }
+
   .links {
     height: auto;
     display: flex;
   }
+
   .links a {
     padding: 0;
     margin: 0 0.5rem;
   }
+
   .links a:hover {
     padding: 0;
     background: transparent;
   }
+
   .social-icons {
     display: flex;
   }
+
   .social-icons a {
     margin: 0 0.5rem;
     color: var(--clr-primary-5);
     transition: var(--transition);
   }
+
   .social-icons a:hover {
     color: var(--clr-primary-7);
   }
