@@ -19,7 +19,7 @@
             <a href="/" class="{{  request()->is('/') ? 'active' : '' }}">Home</a>
         </li>
         <li>
-            <a href="about" class="{{  request()->is('about') ? 'active' : '' }}">About</a>
+            <a href="about" class="{{  request()->is('about') ? 'active' : '' }}">About me</a>
         </li>
         <li>
             <a href="portfolio" class="{{  request()->is('portfolio') ? 'active' : '' }}">Portfolio</a>
