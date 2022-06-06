@@ -8,23 +8,14 @@
             title="Logo personal portfolio"
             />
         </a>
+        <!--
         <button class="nav-toggle">
           <i class="fas fa-bars"></i>
         </button>
+      -->
     </div>
-    <ul class="links">
-        <li>
-            <a href="/" class="{{  request()->is('/') ? 'active' : '' }}">Home</a>
-        </li>
-        <li>
-            <a href="about" class="{{  request()->is('about') ? 'active' : '' }}">About me</a>
-        </li>
-        <li>
-            <a href="portfolio" class="{{  request()->is('portfolio') ? 'active' : '' }}">Portfolio</a>
-        </li>
-      </ul>
 
-      <ul class="social-icons">
+    <ul>
        <!-- <li>
           <a href="https://www.instagram.com/fedu_zero/?hl=es" target="_blank" rel="noopenernoreferrer">
             <i class="fab fa-instagram"></i>
@@ -39,6 +30,18 @@
           <a href="https://github.com/FedericoSanPedro" target="_blank" rel="noopenernoreferrer">
             <i class="fab fa-github"></i>
           </a>
+        </li>
+    </ul>
+    
+    <ul class="links">
+        <li>
+            <a href="/" class="{{  request()->is('/') ? 'active' : '' }}">Home</a>
+        </li>
+        <li>
+            <a href="about" class="{{  request()->is('about') ? 'active' : '' }}">About me</a>
+        </li>
+        <li>
+            <a href="portfolio" class="{{  request()->is('portfolio') ? 'active' : '' }}">Portfolio</a>
         </li>
     </ul>
 </nav>
