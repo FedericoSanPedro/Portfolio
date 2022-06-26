@@ -24,6 +24,9 @@
 <body>
     <header>
         @include('layouts.header')
+        <!-- Javascript: posible error de version PHP y quizas ande en remoto 
+        -->
+        <script src="{{ asset(js/app.js) }}"></script>
     </header>
 
     @yield('content')
