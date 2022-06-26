@@ -25,7 +25,7 @@
     <header>
         @include('layouts.header')
         <!-- Javascript: posible error de version PHP y quizas ande en remoto 
-        <script src="{{ asset(js/app.js) }}"></script>
+        <script src="llaves dobles asset(js/app.js) llaves dobles"></script>
         -->
     </header>
 
