@@ -19,6 +19,7 @@
         href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
     />
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="icon" href="https://i.postimg.cc/1XS77Ywk/logo.png" type="image/x-icon">
 </head>
 
 <body>
