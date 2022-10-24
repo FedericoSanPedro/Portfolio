@@ -16,6 +16,28 @@
 
     <div>
         <article class="single-project-module--project--3_fln">
+            <a href="https://github.com/FedericoSanPedro/api-test" target="_blank" rel="noreferrer noopener">
+                <img src="https://cdn.pixabay.com/photo/2016/12/09/18/30/database-schema-1895779_960_720.png">
+            </a>
+            <div class="single-project-module--footer--_D86Q">
+                <div class="single-project-module--info--1iz3j">
+                    <h2>
+                        Swagger Project
+                    </h2>
+                    <p>
+                        Using PHP I created an API, with Swagger UI documenting the methods I can use.
+                    </p>
+                    <div class="tags">
+                        <p class="tab">PHP</p>
+                        <p class="tab">SWAGGER</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div>
+        <article class="single-project-module--project--3_fln">
             <a href="https://github.com/FedericoSanPedro/PracticaReact" target="_blank" rel="noreferrer noopener">
                 <img src="https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg">
             </a>
@@ -80,6 +102,12 @@
         </article>
     </div>
 
+
+
+</div>
+
+<div class="container-grid-4">
+
     <div>
         <article class="single-project-module--project--3_fln">
             <a href="https://github.com/FedericoSanPedro/Blog" target="_blank" rel="noreferrer noopener">
@@ -103,11 +131,6 @@
             </div>
         </article>
     </div>
-
-
-</div>
-
-<div class="container-grid-4">
 
     <div>
         <article class="single-project-module--project--3_fln">
